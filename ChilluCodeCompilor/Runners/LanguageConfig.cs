@@ -13,7 +13,7 @@
             {
                 Language = "python",
                 FileName = "main.py",
-                DockerImage = "python:3.11",
+                DockerImage = "python:latest",
                 Command = "python main.py"
             },
             ["node"] = new LanguageConfig
